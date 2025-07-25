@@ -23,7 +23,7 @@ spec:
               memory: 1Gi
           ports:
             - name: healthcheck
-              containerPort: 8080
+              containerPort: 9090
           readinessProbe:
             # Readiness probe is used to check if this app is ready to serve traffic.
             httpGet:
